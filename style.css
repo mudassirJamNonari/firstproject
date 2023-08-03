@@ -1,0 +1,181 @@
+.illustration .span{
+    width: 350px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.container{
+    border: 1px solid hsl(223, 18%, 92%);
+    width: 350px;
+    border-radius: 15px;
+    cursor: pointer;
+  
+}
+.summary{
+        margin-left: 64px;
+        color: hsl(223, 47%, 23%);
+        font-size: 13px;
+}
+.paragrhap{
+    margin-left: 38px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 29px;
+}
+.annul{
+    font-size: 4px;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+
+
+.music{
+    display: flex;
+}
+.icon-music{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.annul{
+
+    
+    font-size: 8px;
+    margin-top: 18px;
+    margin-left: 10px;
+
+}
+
+
+.icon{
+    display: flex;
+}
+.change{
+        margin-top: 30px;
+        font-size: 15px;
+        color:   hsl(223, 99%, 41%);
+        margin-left: 83px;
+}
+.year{
+    margin-top: 44px;
+    color: hsl(224, 23%, 55%);
+    margin-left: -79px;
+    font-size: 14px;
+
+}
+
+.icon{
+    border-radius: 10px;
+    width: 280px;
+    margin-left: 35px;
+    height: 75px;
+    padding-top: -6px;
+    background-color: rgb(231, 230, 230);
+}
+.b{
+    margin: 19px 57px;
+  
+}
+.chart{
+    margin-left: 120px;
+    color: black
+    
+}
+.ann{
+    text-transform: capitalize;
+    margin-top: 8px;
+    color: hsl(222, 18%, 22%);
+}
+.anywhere{
+    margin-left: 51px;
+}
+p{
+    margin-top: -11px;
+}
+.cancel{
+    margin-top: 24px;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    margin-left: 6px;
+    font-size: 15px;
+}
+button{
+    margin-top: 30px;
+    padding: 14px 81px;
+    margin-left: 32px;
+    background-color:  hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 20px 25px  hsl(248, 31%, 85%);
+}
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+
+.container {
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.illustration .span {
+    width: 100%; 
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.summary, .paragrhap, .icon, .chart {
+    margin-left: 0; }
+
+.summary {
+    font-size: 20px; }
+.paragrhap {
+    margin-top: 15px; }
+
+.icon {
+    width: 100%; 
+    height: auto; 
+    margin: 15px 0; 
+    padding: 10px; 
+}
+
+.icon-music {
+    margin-top: 0; 
+    margin-right: 10px; 
+}
+
+.change, .year {
+    margin-left: 0; 
+}
+
+/* button {
+    width: 100%; 
+    padding: 14px 0; 
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .illustration .span {
+        width: 100%; 
+        height: auto; 
+
+    .summary {
+        font-size: 18px; 
+    }
+}
+}
